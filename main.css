@@ -20,7 +20,6 @@ body {
     left: 0;
     background-color: var(--Branco);
     overflow-x: hidden;
-    padding-top: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -41,13 +40,17 @@ body {
 }
 
 .side-menu a.logo{
+    padding: 24px 20px 24px 24px;
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--Branco);
+    display: block;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: var(--Branco);
     font-weight: 700;
-    font-size: 30px;
     line-height: 35px;
-    margin-top: 0%;
+    line-height: 19px;
+
     background: var(--Gradient)
 }
 
@@ -61,9 +64,16 @@ body {
 /* Conteúdo principal */
 .main {
     margin-left: 220px;
+    margin-top: 68px;
 }
 
 
-/*header */
-
-
+/* Header */
+header {
+    position: absolute;
+    width: 1146px;
+    height: 68px;
+    left: 220px;
+    top: 0px;    
+    background: #FDF1EB;
+}
